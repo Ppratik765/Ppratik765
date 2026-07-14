@@ -47,9 +47,13 @@ Beyond backend data processing, I love building highly creative, performant inte
 ---
 
 ## System Architecture
-<!-- Idea 1: Native Mermaid Diagram -->
-Here is a high-level overview of the **Agentic Supply Chain Simulator** I built at BISAG-N:
 
+<details>
+  <summary><b>Agentic Supply Chain Simulator</b></summary>
+  <br/> 
+    <i>Engineered during my tenure as an AI Engineering Intern at <b>BISAG-N</b>.</i><br/>
+  
+  
 ```mermaid
 graph TD;
     A[Deterministic Agents] -->|Inventory State| B(LangGraph Orchestrator);
@@ -62,11 +66,75 @@ graph TD;
     style A fill:#1e1e1e,stroke:#333,stroke-width:1px,color:#fff
     style D fill:#1e1e1e,stroke:#333,stroke-width:1px,color:#fff
 ```
+</details>
+
+<details>
+  <summary><b>Vector Squadron (Rust/WASM + WebGL)</b></summary>
+  <br/>
+  
+```mermaid
+graph LR;
+    A[Browser Input/Controls] --> B(Rust WASM Game Loop);
+    B -->|Physics & Entity State| C{Three.js Render Engine};
+    B -->|Audio Triggers| D[Web Audio API];
+    C -->|Draw Calls| E[WebGL / GLSL Shaders];
+    E --> F((Canvas Display));
+    style B fill:#1e1e1e,stroke:#dea584,stroke-width:2px,color:#fff
+    style C fill:#1e1e1e,stroke:#f7df1e,stroke-width:2px,color:#fff
+```
+</details>
+
+<details>
+  <summary><b>Beyond the Apex (F1 Telemetry Engine)</b></summary>
+  <br/>
+
+```mermaid
+graph TD;
+    A[FastF1 API] -->|Raw Telemetry| B(Python Processing Engine);
+    B -->|Data Aggregation & Delta Calc| C[JSON Payload];
+    C -->|Fetch| D(D3.js Visualizer);
+    D -->|Plotting| E((Interactive 2D Dashboard));
+    style B fill:#1e1e1e,stroke:#3776ab,stroke-width:2px,color:#fff
+    style D fill:#1e1e1e,stroke:#f9a03c,stroke-width:2px,color:#fff
+```
+</details>
+
+<details>
+  <summary><b>PulmoSense (Deep Learning to Edge)</b></summary>
+  <br/>
+
+```mermaid
+graph TD;
+    A[Respiratory Audio Data] --> B(Python PyTorch Training);
+    B -->|CNN / Grad-CAM| C[PyTorch Model];
+    C -->|Export & Quantize| D(TensorFlow Lite);
+    D -->|On-Device Inference| E[Android Kotlin App];
+    E --> F{PulmoEngine DSP / FFT};
+    F -->|128-band Mel Spectrogram| D;
+    style B fill:#1e1e1e,stroke:#ee4c2c,stroke-width:2px,color:#fff
+    style E fill:#1e1e1e,stroke:#7f52ff,stroke-width:2px,color:#fff
+```
+</details>
+
+<details>
+  <summary><b>Aura (Acoustic Fingerprinting)</b></summary>
+  <br/>
+
+```mermaid
+graph LR;
+    A[Microphone Input] --> B(Android Kotlin Service);
+    B -->|Raw Buffer| C{DSP Engine / FFT};
+    C -->|Acoustic Fingerprint| D(Gracenote Index Matching);
+    D -->|Song Metadata| E[Jetpack Compose UI];
+    style C fill:#1e1e1e,stroke:#00ff00,stroke-width:2px,color:#fff
+    style E fill:#1e1e1e,stroke:#4285f4,stroke-width:2px,color:#fff
+```
+</details>
 
 ---
 
 ## Engineering Deep Dives
-<!-- Idea 4: Interactive Deep Dives using <details> -->
+
 <details>
   <summary><b>How I optimized PulmoSense for Real-Time Edge Inference</b></summary>
   <br/>
@@ -79,6 +147,28 @@ graph TD;
   <br/>
   Designed a fault-tolerant Android audio identifier capable of "Query by Humming" melody matching. The system uses a highly reactive <b>Jetpack Compose</b> UI following MVVM architecture. The core DSP engine utilizes Fast Fourier Transforms to generate acoustic fingerprints, which are cross-referenced with a catalog index for instant song accessibility.
 </details>
+
+<details>
+  <summary><b>Vector Squadron & Waveglider: Circumventing Browser Bottlenecks</b></summary>
+  <br/>
+  <b>The Challenge:</b> Achieving consistent 60FPS in a browser for 3D flight simulation physics without JavaScript garbage collection causing latency spikes.<br/><br/>
+  <b>The Solution:</b> I shifted all heavy game loop logic, autopilot behaviors, and entity physics into <b>Rust</b>, compiling it to <b>WebAssembly (WASM)</b>. This memory-safe, high-performance binary communicates with a custom <b>Three.js</b> and <b>GLSL</b> rendering pipeline, allowing the browser to render infinite oceanic Gerstner waves and vast procedural flight environments seamlessly.
+</details>
+
+<details>
+  <summary><b>Beyond the Apex: Real-Time Formula 1 Analytics</b></summary>
+  <br/>
+  <b>The Challenge:</b> Processing massive arrays of multi-driver, lap-by-lap telemetry data into a consumable, interactive format.<br/><br/>
+  <b>The Solution:</b> Developed a robust Python backend utilizing the <b>FastF1 API</b> to extract raw racing metrics. I engineered a pipeline to calculate delta metrics across speed and gear transitions, mapping this payload to a responsive <b>D3.js</b> frontend. This enables users to generate complex 2D comparative visualizations across racing sessions instantaneously.
+</details>
+
+<details>
+  <summary><b>LocalPDF Pro: Offline-First Utility</b></summary>
+  <br/>
+  <b>The Challenge:</b> Providing secure PDF processing capabilities without relying on third-party cloud infrastructure or risking metadata leakage.<br/><br/>
+  <b>The Solution:</b> Engineered a 100% offline desktop application (PyQt6) and mobile utility (Kotlin). I integrated a <b>Web Assembly</b> sandbox container leveraging <b>PDF.js</b> to compile and parse documents locally, ensuring absolute data privacy and standalone execution.
+</details>
+
 
 ---
 
