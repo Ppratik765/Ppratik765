@@ -198,44 +198,6 @@ graph LR;
   <b>The Solution:</b> Engineered a 100% offline desktop application (PyQt6) and mobile utility (Kotlin). I integrated a <b>Web Assembly</b> sandbox container leveraging <b>PDF.js</b> to compile and parse documents locally, ensuring absolute data privacy and standalone execution.
 </details>
 
----
-
-## Engineering Deep Dives
-
-<details>
-  <summary><b>How I optimized PulmoSense for Real-Time Edge Inference</b></summary>
-  <br/>
-  <b>The Challenge:</b> Running heavy audio processing models on low-power Android devices without significant battery drain or latency.<br/><br/>
-  <b>The Solution:</b> I engineered a custom processing engine (<b>PulmoEngine</b>) in Kotlin that computes 128-band Mel spectrograms natively from raw audio buffers using Fast Fourier Transforms (FFT). Instead of relying on a Python backend API, I trained a custom PyTorch model, converted it to <b>TensorFlow Lite</b>, and deployed it directly on-device. This achieved 100% offline, real-time diagnostic classification of respiratory patterns.
-</details>
-
-<details>
-  <summary><b>Aura: Real-Time Acoustic Fingerprinting</b></summary>
-  <br/>
-  Designed a fault-tolerant Android audio identifier capable of "Query by Humming" melody matching. The system uses a highly reactive <b>Jetpack Compose</b> UI following MVVM architecture. The core DSP engine utilizes Fast Fourier Transforms to generate acoustic fingerprints, which are cross-referenced with a catalog index for instant song accessibility.
-</details>
-
-<details>
-  <summary><b>Vector Squadron & Waveglider: Circumventing Browser Bottlenecks</b></summary>
-  <br/>
-  <b>The Challenge:</b> Achieving consistent 60FPS in a browser for 3D flight simulation physics without JavaScript garbage collection causing latency spikes.<br/><br/>
-  <b>The Solution:</b> I shifted all heavy game loop logic, autopilot behaviors, and entity physics into <b>Rust</b>, compiling it to <b>WebAssembly (WASM)</b>. This memory-safe, high-performance binary communicates with a custom <b>Three.js</b> and <b>GLSL</b> rendering pipeline, allowing the browser to render infinite oceanic Gerstner waves and vast procedural flight environments seamlessly.
-</details>
-
-<details>
-  <summary><b>Beyond the Apex: Real-Time Formula 1 Analytics</b></summary>
-  <br/>
-  <b>The Challenge:</b> Processing massive arrays of multi-driver, lap-by-lap telemetry data into a consumable, interactive format.<br/><br/>
-  <b>The Solution:</b> Developed a robust Python backend utilizing the <b>FastF1 API</b> to extract raw racing metrics. I engineered a pipeline to calculate delta metrics across speed and gear transitions, mapping this payload to a responsive <b>D3.js</b> frontend. This enables users to generate complex 2D comparative visualizations across racing sessions instantaneously.
-</details>
-
-<details>
-  <summary><b>LocalPDF Pro: Offline-First Utility</b></summary>
-  <br/>
-  <b>The Challenge:</b> Providing secure PDF processing capabilities without relying on third-party cloud infrastructure or risking metadata leakage.<br/><br/>
-  <b>The Solution:</b> Engineered a 100% offline desktop application (PyQt6) and mobile utility (Kotlin). I integrated a <b>Web Assembly</b> sandbox container leveraging <b>PDF.js</b> to compile and parse documents locally, ensuring absolute data privacy and standalone execution.
-</details>
-
 
 ---
 
