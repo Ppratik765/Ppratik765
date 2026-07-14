@@ -43,3 +43,49 @@ Beyond backend data processing, I love building highly creative, performant inte
     </td>
   </tr>
 </table>
+
+---
+
+## System Architecture
+<!-- Idea 1: Native Mermaid Diagram -->
+Here is a high-level overview of the **Agentic Supply Chain Simulator** I built at BISAG-N:
+
+```mermaid
+graph TD;
+    A[Deterministic Agents] -->|Inventory State| B(LangGraph Orchestrator);
+    B -->|State & Context| C{LLM Advisory Board};
+    C -->|Action Proposal| B;
+    B -->|Validated Action| D[Logistical Network];
+    D -->|Reward/Penalty| A;
+    style B fill:#1e1e1e,stroke:#00ff00,stroke-width:2px,color:#fff
+    style C fill:#1e1e1e,stroke:#3b82f6,stroke-width:2px,color:#fff
+    style A fill:#1e1e1e,stroke:#333,stroke-width:1px,color:#fff
+    style D fill:#1e1e1e,stroke:#333,stroke-width:1px,color:#fff
+```
+
+---
+
+## Engineering Deep Dives
+<!-- Idea 4: Interactive Deep Dives using <details> -->
+<details>
+  <summary><b>How I optimized PulmoSense for Real-Time Edge Inference</b></summary>
+  <br/>
+  <b>The Challenge:</b> Running heavy audio processing models on low-power Android devices without significant battery drain or latency.<br/><br/>
+  <b>The Solution:</b> I engineered a custom processing engine (<b>PulmoEngine</b>) in Kotlin that computes 128-band Mel spectrograms natively from raw audio buffers using Fast Fourier Transforms (FFT). Instead of relying on a Python backend API, I trained a custom PyTorch model, converted it to <b>TensorFlow Lite</b>, and deployed it directly on-device. This achieved 100% offline, real-time diagnostic classification of respiratory patterns.
+</details>
+
+<details>
+  <summary><b>Aura: Real-Time Acoustic Fingerprinting</b></summary>
+  <br/>
+  Designed a fault-tolerant Android audio identifier capable of "Query by Humming" melody matching. The system uses a highly reactive <b>Jetpack Compose</b> UI following MVVM architecture. The core DSP engine utilizes Fast Fourier Transforms to generate acoustic fingerprints, which are cross-referenced with a catalog index for instant song accessibility.
+</details>
+
+---
+
+## Live LeetCode Stats
+<!-- Idea 5: Automated LeetCode Ticker -->
+<!-- IMPORTANT: Replace "Ppratik765" with your actual LeetCode username below! -->
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/Qwertyx_744?theme=dark&font=Fira%20Code&ext=activity" alt="LeetCode Stats" />
+</div>
+
