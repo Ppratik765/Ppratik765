@@ -170,11 +170,10 @@ graph LR;
 
 <details>
   <summary><b>Vector Squadron & Waveglider: Circumventing Browser Bottlenecks</b></summary>
-  <br/>
-  <a href="https://github.com/Ppratik765/Shooting-game-star-wars-style"><img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://vector-squadron.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+ <br/>
+  <b>Vector Squadron:</b> <a href="https://github.com/Ppratik765/Shooting-game-star-wars-style"><img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="https://vector-squadron.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a><br/>
+  <b>Waveglider:</b> <a href="https://github.com/Ppratik765/Ocean-simulation"><img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="https://waveglider.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <br/><br/>
-  <b>The Challenge:</b> Achieving consistent 60FPS in a browser for 3D flight simulation physics without JavaScript garbage collection causing latency spikes.<br/><br/>
   <b>The Solution:</b> I shifted all heavy game loop logic, autopilot behaviors, and entity physics into <b>Rust</b>, compiling it to <b>WebAssembly (WASM)</b>. This memory-safe, high-performance binary communicates with a custom <b>Three.js</b> and <b>GLSL</b> rendering pipeline, allowing the browser to render infinite oceanic Gerstner waves and vast procedural flight environments seamlessly.
 </details>
 
