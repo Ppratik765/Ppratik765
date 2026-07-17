@@ -46,15 +46,6 @@ Beyond backend data processing, I love building highly creative, performant inte
 
 ---
 
-<!-- ============================================================
-     REPLACES everything from "## System Architecture" down to
-     the end of "## Engineering Deep Dives" in your existing README.
-     Everything above (badges, typing SVG, About Me, Profile table)
-     and below (Live LeetCode Stats) stays exactly as it is.
-     ============================================================ -->
-
----
-
 <img src="assets/banners/system-architecture-banner.svg" width="100%" alt="System Architecture" />
 
 <details>
