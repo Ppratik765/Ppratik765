@@ -1,0 +1,77 @@
+<svg viewBox="0 0 1050 320" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace">
+  <defs>
+    <filter id="glow_8b949e" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3.2" flood-color="#8b949e" flood-opacity="0.85">
+        <animate attributeName="flood-opacity" values="0.35;0.9;0.35" dur="3.4s" repeatCount="indefinite"/>
+      </feDropShadow>
+    </filter>
+<filter id="glow_dea584" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3.2" flood-color="#dea584" flood-opacity="0.85">
+        <animate attributeName="flood-opacity" values="0.35;0.9;0.35" dur="3.4s" repeatCount="indefinite"/>
+      </feDropShadow>
+    </filter>
+<filter id="glow_f7df1e" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3.2" flood-color="#f7df1e" flood-opacity="0.85">
+        <animate attributeName="flood-opacity" values="0.35;0.9;0.35" dur="3.4s" repeatCount="indefinite"/>
+      </feDropShadow>
+    </filter>
+<filter id="glow_00ff00" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3.2" flood-color="#00ff00" flood-opacity="0.85">
+        <animate attributeName="flood-opacity" values="0.35;0.9;0.35" dur="3.4s" repeatCount="indefinite"/>
+      </feDropShadow>
+    </filter>
+<marker id="arrow_8b949e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b949e"/>
+    </marker>
+<marker id="arrow_dea584" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#dea584"/>
+    </marker>
+<marker id="arrow_f7df1e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f7df1e"/>
+    </marker>
+<marker id="arrow_00ff00" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#00ff00"/>
+    </marker>
+    <pattern id="dotgrid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.1" fill="#30363d" opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1048" height="318" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="1" y="1" width="1048" height="318" rx="18" fill="url(#dotgrid)"/>
+  
+    <g>
+      <rect x="5.0" y="131.0" width="190" height="58" rx="12" fill="#161b22" stroke="#8b949e" stroke-width="1.8" filter="url(#glow_8b949e)"/>
+      <text x="100" y="159" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#e6edf3">Browser Input</text><text x="100" y="176" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#e6edf3">/ Controls</text>
+    </g>
+
+    <g>
+      <rect x="250.0" y="131.0" width="200" height="58" rx="12" fill="#161b22" stroke="#dea584" stroke-width="1.8" filter="url(#glow_dea584)"/>
+      <text x="350" y="165" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#e6edf3">Rust WASM Game Loop</text>
+    </g>
+
+    <g>
+      <rect x="507.5" y="41.0" width="205" height="58" rx="12" fill="#161b22" stroke="#f7df1e" stroke-width="1.8" filter="url(#glow_f7df1e)"/>
+      <text x="610" y="69" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#e6edf3">Three.js</text><text x="610" y="86" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#e6edf3">Render Engine</text>
+    </g>
+
+    <g>
+      <rect x="520.0" y="221.0" width="180" height="58" rx="12" fill="#161b22" stroke="#8b949e" stroke-width="1.8" filter="url(#glow_8b949e)"/>
+      <text x="610" y="255" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#e6edf3">Web Audio API</text>
+    </g>
+
+    <g>
+      <rect x="817.5" y="41.0" width="185" height="58" rx="12" fill="#161b22" stroke="#f7df1e" stroke-width="1.8" filter="url(#glow_f7df1e)"/>
+      <text x="910" y="75" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#e6edf3">WebGL / GLSL Shaders</text>
+    </g>
+
+    <g>
+      <circle cx="910" cy="250" r="54" fill="#161b22" stroke="#00ff00" stroke-width="1.8" filter="url(#glow_00ff00)"/>
+      <circle cx="910" cy="250" r="47" fill="none" stroke="#00ff00" stroke-width="1" opacity="0.55"/>
+      <text x="910" y="247" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="600" fill="#e6edf3">Canvas</text><text x="910" y="263" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="600" fill="#e6edf3">Display</text>
+    </g>
+<path id="v1" d="M 195.0 160 L 250.0 160" fill="none" stroke="#8b949e" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#arrow_8b949e)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="22" to="0" dur="2.8s" repeatCount="indefinite"/></path><circle r="3.2" fill="#8b949e"><animateMotion dur="2.8s" repeatCount="indefinite" rotate="auto"><mpath href="#v1"/></animateMotion></circle>
+<path id="v2" d="M 380 131.0 C 410 71.0, 427.5 100, 507.5 70" fill="none" stroke="#dea584" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#arrow_dea584)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="22" to="0" dur="2.8s" repeatCount="indefinite"/></path><circle r="3.2" fill="#dea584"><animateMotion dur="2.8s" repeatCount="indefinite" rotate="auto"><mpath href="#v2"/></animateMotion></circle><rect x="336.4" y="106" width="157.2" height="16" fill="#0d1117" opacity="0.9" rx="3"/><text x="415" y="118" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#8b949e" font-style="italic">Physics &amp; Entity State</text>
+<path id="v3" d="M 380 189.0 C 410 249.0, 440.0 220, 520.0 250" fill="none" stroke="#dea584" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#arrow_dea584)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="22" to="0" dur="2.4s" repeatCount="indefinite"/></path><circle r="3.2" fill="#dea584"><animateMotion dur="2.4s" repeatCount="indefinite" rotate="auto"><mpath href="#v3"/></animateMotion></circle><rect x="387.8" y="243" width="104.39999999999999" height="16" fill="#0d1117" opacity="0.9" rx="3"/><text x="440" y="255" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#8b949e" font-style="italic">Audio Triggers</text>
+<path id="v4" d="M 712.5 70 L 817.5 70" fill="none" stroke="#f7df1e" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#arrow_f7df1e)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="22" to="0" dur="2.8s" repeatCount="indefinite"/></path><circle r="3.2" fill="#f7df1e"><animateMotion dur="2.8s" repeatCount="indefinite" rotate="auto"><mpath href="#v4"/></animateMotion></circle><rect x="726.0" y="46" width="78.0" height="16" fill="#0d1117" opacity="0.9" rx="3"/><text x="765.0" y="58" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#8b949e" font-style="italic">Draw Calls</text>
+<path id="v5" d="M 910 99.0 C 910 169.0, 910 156, 910 196" fill="none" stroke="#00ff00" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#arrow_00ff00)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="22" to="0" dur="1.8s" repeatCount="indefinite"/></path><circle r="3.2" fill="#00ff00"><animateMotion dur="1.8s" repeatCount="indefinite" rotate="auto"><mpath href="#v5"/></animateMotion></circle>
+</svg>

@@ -1,0 +1,75 @@
+<svg viewBox="0 0 700 660" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace">
+  <defs>
+    <filter id="glow_8b949e" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3.2" flood-color="#8b949e" flood-opacity="0.85">
+        <animate attributeName="flood-opacity" values="0.35;0.9;0.35" dur="3.4s" repeatCount="indefinite"/>
+      </feDropShadow>
+    </filter>
+<filter id="glow_3776ab" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3.2" flood-color="#3776ab" flood-opacity="0.85">
+        <animate attributeName="flood-opacity" values="0.35;0.9;0.35" dur="3.4s" repeatCount="indefinite"/>
+      </feDropShadow>
+    </filter>
+<filter id="glow_f9a03c" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3.2" flood-color="#f9a03c" flood-opacity="0.85">
+        <animate attributeName="flood-opacity" values="0.35;0.9;0.35" dur="3.4s" repeatCount="indefinite"/>
+      </feDropShadow>
+    </filter>
+<filter id="glow_00ff00" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3.2" flood-color="#00ff00" flood-opacity="0.85">
+        <animate attributeName="flood-opacity" values="0.35;0.9;0.35" dur="3.4s" repeatCount="indefinite"/>
+      </feDropShadow>
+    </filter>
+<marker id="arrow_8b949e" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b949e"/>
+    </marker>
+<marker id="arrow_3776ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#3776ab"/>
+    </marker>
+<marker id="arrow_f9a03c" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f9a03c"/>
+    </marker>
+<marker id="arrow_00ff00" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#00ff00"/>
+    </marker>
+    <pattern id="dotgrid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.1" fill="#30363d" opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="698" height="658" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <rect x="1" y="1" width="698" height="658" rx="18" fill="url(#dotgrid)"/>
+  
+    <g>
+      <rect x="150.0" y="41.0" width="180" height="58" rx="12" fill="#161b22" stroke="#8b949e" stroke-width="1.8" filter="url(#glow_8b949e)"/>
+      <text x="240" y="75" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#e6edf3">FastF1 API</text>
+    </g>
+
+    <g>
+      <rect x="115.0" y="166.0" width="250" height="58" rx="12" fill="#161b22" stroke="#3776ab" stroke-width="1.8" filter="url(#glow_3776ab)"/>
+      <text x="240" y="194" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#e6edf3">Python</text><text x="240" y="211" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#e6edf3">Processing Engine</text>
+    </g>
+
+    <g>
+      <rect x="147.5" y="291.0" width="185" height="58" rx="12" fill="#161b22" stroke="#8b949e" stroke-width="1.8" filter="url(#glow_8b949e)"/>
+      <text x="240" y="325" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#e6edf3">JSON Payload</text>
+    </g>
+
+    <g>
+      <rect x="137.5" y="416.0" width="205" height="58" rx="12" fill="#161b22" stroke="#f9a03c" stroke-width="1.8" filter="url(#glow_f9a03c)"/>
+      <text x="240" y="450" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#e6edf3">D3.js Visualizer</text>
+    </g>
+
+    <g>
+      <circle cx="240" cy="585" r="62" fill="#161b22" stroke="#00ff00" stroke-width="1.8" filter="url(#glow_00ff00)"/>
+      <circle cx="240" cy="585" r="55" fill="none" stroke="#00ff00" stroke-width="1" opacity="0.55"/>
+      <text x="240" y="582" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="600" fill="#e6edf3">Interactive</text><text x="240" y="598" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="12" font-weight="600" fill="#e6edf3">2D Dashboard</text>
+    </g>
+<path id="f1" d="M 240 99.0 L 240 166.0" fill="none" stroke="#8b949e" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#arrow_8b949e)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="22" to="0" dur="2.6s" repeatCount="indefinite"/></path><circle r="3.2" fill="#8b949e"><animateMotion dur="2.6s" repeatCount="indefinite" rotate="auto"><mpath href="#f1"/></animateMotion></circle>
+<rect x="379" y="120.5" width="99.8" height="17" fill="#0d1117" opacity="0.9" rx="3"/><text x="385" y="132.5" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#8b949e" font-style="italic">Raw Telemetry</text>
+<path id="f2" d="M 240 224.0 L 240 291.0" fill="none" stroke="#3776ab" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#arrow_3776ab)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="22" to="0" dur="3s" repeatCount="indefinite"/></path><circle r="3.2" fill="#3776ab"><animateMotion dur="3s" repeatCount="indefinite" rotate="auto"><mpath href="#f2"/></animateMotion></circle>
+<rect x="379" y="245.5" width="172.39999999999998" height="17" fill="#0d1117" opacity="0.9" rx="3"/><text x="385" y="257.5" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#3776ab" font-style="italic">Aggregation &amp; Delta Calc</text>
+<path id="f3" d="M 240 349.0 L 240 416.0" fill="none" stroke="#f9a03c" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#arrow_f9a03c)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="22" to="0" dur="2s" repeatCount="indefinite"/></path><circle r="3.2" fill="#f9a03c"><animateMotion dur="2s" repeatCount="indefinite" rotate="auto"><mpath href="#f3"/></animateMotion></circle>
+<rect x="379" y="370.5" width="47.0" height="17" fill="#0d1117" opacity="0.9" rx="3"/><text x="385" y="382.5" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#f9a03c" font-style="italic">Fetch</text>
+<path id="f4" d="M 240 474.0 L 240 523" fill="none" stroke="#00ff00" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#arrow_00ff00)" opacity="0.9"><animate attributeName="stroke-dashoffset" from="22" to="0" dur="1.8s" repeatCount="indefinite"/></path><circle r="3.2" fill="#00ff00"><animateMotion dur="1.8s" repeatCount="indefinite" rotate="auto"><mpath href="#f4"/></animateMotion></circle>
+<rect x="379" y="486.5" width="66.8" height="17" fill="#0d1117" opacity="0.9" rx="3"/><text x="385" y="498.5" font-family="'Fira Code', 'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#00ff00" font-style="italic">Plotting</text>
+</svg>
