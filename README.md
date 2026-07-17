@@ -46,7 +46,16 @@ Beyond backend data processing, I love building highly creative, performant inte
 
 ---
 
-## System Architecture
+<!-- ============================================================
+     REPLACES everything from "## System Architecture" down to
+     the end of "## Engineering Deep Dives" in your existing README.
+     Everything above (badges, typing SVG, About Me, Profile table)
+     and below (Live LeetCode Stats) stays exactly as it is.
+     ============================================================ -->
+
+---
+
+<img src="assets/banners/system-architecture-banner.svg" width="100%" alt="System Architecture" />
 
 <details>
   <summary><b>Agentic Supply Chain Simulator</b></summary>
@@ -54,20 +63,8 @@ Beyond backend data processing, I love building highly creative, performant inte
   <a href="https://github.com/Ppratik765/Agentic-supply-chain-management-Beer-Game"><img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://agentic-beer-game.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <br/><br/>
-  <i>Engineered during my tenure as an AI Engineering Intern at <b>BISAG-N</b>.</i><br/>
-  
-```mermaid
-graph TD;
-    A[Deterministic Agents] -->|Inventory State| B(LangGraph Orchestrator);
-    B -->|State & Context| C{LLM Advisory Board};
-    C -->|Action Proposal| B;
-    B -->|Validated Action| D[Logistical Network];
-    D -->|Reward/Penalty| A;
-    style B fill:#1e1e1e,stroke:#00ff00,stroke-width:2px,color:#fff
-    style C fill:#1e1e1e,stroke:#3b82f6,stroke-width:2px,color:#fff
-    style A fill:#1e1e1e,stroke:#333,stroke-width:1px,color:#fff
-    style D fill:#1e1e1e,stroke:#333,stroke-width:1px,color:#fff
-```
+  <i>Engineered during my tenure as an AI Engineering Intern at <b>BISAG-N</b>.</i><br/><br/>
+  <img src="assets/architecture/agentic-supply-chain.svg" width="100%" alt="Agentic Supply Chain architecture diagram" />
 </details>
 
 <details>
@@ -75,18 +72,8 @@ graph TD;
   <br/>
   <a href="https://github.com/Ppratik765/Shooting-game-star-wars-style"><img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://vector-squadron.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <br/>
-  
-```mermaid
-graph LR;
-    A[Browser Input/Controls] --> B(Rust WASM Game Loop);
-    B -->|Physics & Entity State| C{Three.js Render Engine};
-    B -->|Audio Triggers| D[Web Audio API];
-    C -->|Draw Calls| E[WebGL / GLSL Shaders];
-    E --> F((Canvas Display));
-    style B fill:#1e1e1e,stroke:#dea584,stroke-width:2px,color:#fff
-    style C fill:#1e1e1e,stroke:#f7df1e,stroke-width:2px,color:#fff
-```
+  <br/><br/>
+  <img src="assets/architecture/vector-squadron.svg" width="100%" alt="Vector Squadron architecture diagram" />
 </details>
 
 <details>
@@ -94,17 +81,10 @@ graph LR;
   <br/>
   <a href="https://github.com/Ppratik765/Beyond-The-Apex-Pro-vercel"><img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://beyond-the-apex-pro.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <br/>
-
-```mermaid
-graph TD;
-    A[FastF1 API] -->|Raw Telemetry| B(Python Processing Engine);
-    B -->|Data Aggregation & Delta Calc| C[JSON Payload];
-    C -->|Fetch| D(D3.js Visualizer);
-    D -->|Plotting| E((Interactive 2D Dashboard));
-    style B fill:#1e1e1e,stroke:#3776ab,stroke-width:2px,color:#fff
-    style D fill:#1e1e1e,stroke:#f9a03c,stroke-width:2px,color:#fff
-```
+  <br/><br/>
+  <div align="center">
+    <img src="assets/architecture/beyond-the-apex.svg" width="420" alt="Beyond the Apex architecture diagram" />
+  </div>
 </details>
 
 <details>
@@ -112,19 +92,10 @@ graph TD;
   <br/>
   <a href="https://github.com/Ppratik765/PulmoSense"><img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://github.com/Ppratik765/PulmoSense/releases"><img src="https://img.shields.io/badge/Download_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white" /></a>
-  <br/>
-
-```mermaid
-graph TD;
-    A[Respiratory Audio Data] --> B(Python PyTorch Training);
-    B -->|CNN / Grad-CAM| C[PyTorch Model];
-    C -->|Export & Quantize| D(TensorFlow Lite);
-    D -->|On-Device Inference| E[Android Kotlin App];
-    E --> F{PulmoEngine DSP / FFT};
-    F -->|128-band Mel Spectrogram| D;
-    style B fill:#1e1e1e,stroke:#ee4c2c,stroke-width:2px,color:#fff
-    style E fill:#1e1e1e,stroke:#7f52ff,stroke-width:2px,color:#fff
-```
+  <br/><br/>
+  <div align="center">
+    <img src="assets/architecture/pulmosense.svg" width="420" alt="PulmoSense architecture diagram" />
+  </div>
 </details>
 
 <details>
@@ -132,22 +103,15 @@ graph TD;
   <br/>
   <a href="https://github.com/Ppratik765/Detect-any-music-android-app"><img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://github.com/Ppratik765/Detect-any-music-android-app/releases"><img src="https://img.shields.io/badge/Download_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white" /></a>
-  <br/>
-
-```mermaid
-graph LR;
-    A[Microphone Input] --> B(Android Kotlin Service);
-    B -->|Raw Buffer| C{DSP Engine / FFT};
-    C -->|Acoustic Fingerprint| D(Gracenote Index Matching);
-    D -->|Song Metadata| E[Jetpack Compose UI];
-    style C fill:#1e1e1e,stroke:#00ff00,stroke-width:2px,color:#fff
-    style E fill:#1e1e1e,stroke:#4285f4,stroke-width:2px,color:#fff
-```
+  <br/><br/>
+  <div align="center">
+    <img src="assets/architecture/aura.svg" width="420" alt="Aura architecture diagram" />
+  </div>
 </details>
 
 ---
 
-## Engineering Deep Dives
+<img src="assets/banners/engineering-deepdives-banner.svg" width="100%" alt="Engineering Deep Dives" />
 
 <details>
   <summary><b>How I optimized PulmoSense for Real-Time Edge Inference</b></summary>
@@ -155,8 +119,11 @@ graph LR;
   <a href="https://github.com/Ppratik765/PulmoSense"><img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://github.com/Ppratik765/PulmoSense/releases"><img src="https://img.shields.io/badge/Download_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white" /></a>
   <br/><br/>
-  <b>The Challenge:</b> Running heavy audio processing models on low-power Android devices without significant battery drain or latency.<br/><br/>
-  <b>The Solution:</b> I engineered a custom processing engine (<b>PulmoEngine</b>) in Kotlin that computes 128-band Mel spectrograms natively from raw audio buffers using Fast Fourier Transforms (FFT). Instead of relying on a Python backend API, I trained a custom PyTorch model, converted it to <b>TensorFlow Lite</b>, and deployed it directly on-device. This achieved 100% offline, real-time diagnostic classification of respiratory patterns.
+  <img src="https://img.shields.io/badge/THE_CHALLENGE-f85149?style=flat-square" /><br/>
+  Running heavy audio processing models on low-power Android devices without significant battery drain or latency.
+  <br/><br/>
+  <img src="https://img.shields.io/badge/THE_SOLUTION-2ea043?style=flat-square" /><br/>
+  I engineered a custom processing engine (<b>PulmoEngine</b>) in Kotlin that computes 128-band Mel spectrograms natively from raw audio buffers using Fast Fourier Transforms (FFT). Instead of relying on a Python backend API, I trained a custom PyTorch model, converted it to <b>TensorFlow Lite</b>, and deployed it directly on-device. This achieved 100% offline, real-time diagnostic classification of respiratory patterns.
 </details>
 
 <details>
@@ -170,11 +137,12 @@ graph LR;
 
 <details>
   <summary><b>Vector Squadron & Waveglider: Circumventing Browser Bottlenecks</b></summary>
- <br/>
+  <br/>
   <b>Vector Squadron:</b> <a href="https://github.com/Ppratik765/Shooting-game-star-wars-style"><img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="https://vector-squadron.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a><br/>
   <b>Waveglider:</b> <a href="https://github.com/Ppratik765/Ocean-simulation"><img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="https://waveglider.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <br/><br/>
-  <b>The Solution:</b> I shifted all heavy game loop logic, autopilot behaviors, and entity physics into <b>Rust</b>, compiling it to <b>WebAssembly (WASM)</b>. This memory-safe, high-performance binary communicates with a custom <b>Three.js</b> and <b>GLSL</b> rendering pipeline, allowing the browser to render infinite oceanic Gerstner waves and vast procedural flight environments seamlessly.
+  <img src="https://img.shields.io/badge/THE_SOLUTION-2ea043?style=flat-square" /><br/>
+  I shifted all heavy game loop logic, autopilot behaviors, and entity physics into <b>Rust</b>, compiling it to <b>WebAssembly (WASM)</b>. This memory-safe, high-performance binary communicates with a custom <b>Three.js</b> and <b>GLSL</b> rendering pipeline, allowing the browser to render infinite oceanic Gerstner waves and vast procedural flight environments seamlessly.
 </details>
 
 <details>
@@ -183,8 +151,11 @@ graph LR;
   <a href="https://github.com/Ppratik765/Beyond-The-Apex-Pro-vercel"><img src="https://img.shields.io/badge/Source_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://beyond-the-apex-pro.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <br/><br/>
-  <b>The Challenge:</b> Processing massive arrays of multi-driver, lap-by-lap telemetry data into a consumable, interactive format.<br/><br/>
-  <b>The Solution:</b> Developed a robust Python backend utilizing the <b>FastF1 API</b> to extract raw racing metrics. I engineered a pipeline to calculate delta metrics across speed and gear transitions, mapping this payload to a responsive <b>D3.js</b> frontend. This enables users to generate complex 2D comparative visualizations across racing sessions instantaneously.
+  <img src="https://img.shields.io/badge/THE_CHALLENGE-f85149?style=flat-square" /><br/>
+  Processing massive arrays of multi-driver, lap-by-lap telemetry data into a consumable, interactive format.
+  <br/><br/>
+  <img src="https://img.shields.io/badge/THE_SOLUTION-2ea043?style=flat-square" /><br/>
+  Developed a robust Python backend utilizing the <b>FastF1 API</b> to extract raw racing metrics. I engineered a pipeline to calculate delta metrics across speed and gear transitions, mapping this payload to a responsive <b>D3.js</b> frontend. This enables users to generate complex 2D comparative visualizations across racing sessions instantaneously.
 </details>
 
 <details>
@@ -194,8 +165,11 @@ graph LR;
   <a href="https://github.com/Ppratik765/Local-pdf-pro"><img src="https://img.shields.io/badge/Web_Code-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://github.com/Ppratik765/LocalPDFPro-offline-android-app/releases"><img src="https://img.shields.io/badge/Download_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white" /></a>
   <br/><br/>
-  <b>The Challenge:</b> Providing secure PDF processing capabilities without relying on third-party cloud infrastructure or risking metadata leakage.<br/><br/>
-  <b>The Solution:</b> Engineered a 100% offline desktop application (PyQt6) and mobile utility (Kotlin). I integrated a <b>Web Assembly</b> sandbox container leveraging <b>PDF.js</b> to compile and parse documents locally, ensuring absolute data privacy and standalone execution.
+  <img src="https://img.shields.io/badge/THE_CHALLENGE-f85149?style=flat-square" /><br/>
+  Providing secure PDF processing capabilities without relying on third-party cloud infrastructure or risking metadata leakage.
+  <br/><br/>
+  <img src="https://img.shields.io/badge/THE_SOLUTION-2ea043?style=flat-square" /><br/>
+  Engineered a 100% offline desktop application (PyQt6) and mobile utility (Kotlin). I integrated a <b>Web Assembly</b> sandbox container leveraging <b>PDF.js</b> to compile and parse documents locally, ensuring absolute data privacy and standalone execution.
 </details>
 
 
