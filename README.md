@@ -13,12 +13,21 @@
 ---
 
 # About Me
-Hi, I am **Priyanshu Pratik** — an AI & Data Science student at **Gati Shakti Vishwavidyalaya** and an AI Engineering Intern at **BISAG-N**.
 
-I specialize in building intelligent systems, ranging from deploying custom PyTorch models to Android via TensorFlow Lite (**PulmoSense**), to engineering real-time acoustic fingerprinting DSP engines (**Aura**). Currently, I'm developing an Agentic Supply Chain simulator using LangGraph and Generative AI to mitigate logistical bullwhip effects. 
+I am **Priyanshu Pratik**, an Artificial Intelligence & Data Science undergraduate at **Gati Shakti Vishwavidyalaya** and an AI Engineering Intern at **BISAG-N**.
 
-Beyond backend data processing, I love building highly creative, performant interactive environments like WebGL 3D flight simulators (**Vector Squadron**) and real-time Formula 1 telemetry visualizers. I'm actively preparing for the GATE 2027 (DA) paper and have solved over 160+ algorithmic problems on LeetCode.
+My work centres on building high-performance, intelligent software across the stack—from edge deep learning and signal processing to offline-first utilities, real-time data visualizers, and interactive 3D simulations.
 
+### Systems, Applications & Tooling
+
+* **Edge & Signal Processing ML:** Deployed custom PyTorch models to Android via TensorFlow Lite (**PulmoSense**) and engineered real-time acoustic fingerprinting DSP engines (**Aura**).
+* **Multi-Agent Simulation:** Developing an agentic supply chain simulator using LangGraph and Generative AI to model and mitigate logistical bullwhip effects.
+* **Telemetry & Analytics:** Built **Beyond the Apex**, a Formula 1 telemetry platform for race data parsing, driver analytics, and comparative 2D telemetry charting.
+* **Security & Offline-First Utilities:** Engineered a local air-gapped file transfer system for secure, network-isolated data migration, and developed **LocalPDF Pro**, a privacy-focused local document processing engine built with PyQt6 and Kotlin.
+* **Interactive 3D & Game Development:** Designed **Waveglider** (a WebGL-based 3D flight simulator featuring infinite ocean rendering and low-spec hardware optimisation) alongside an interactive 3D cycling physics game.
+* **Algorithmic Tooling:** Built **Wayfinder**, an interactive pathfinding and graph traversal visualizer for routing algorithms.
+
+#### Beyond full-stack and machine learning development, I actively work on low-level computer architecture with MIPS assembly and Verilog, and have solved over 160+ algorithmic challenges across platforms like LeetCode.
 ---
 
 <table width="100%">
